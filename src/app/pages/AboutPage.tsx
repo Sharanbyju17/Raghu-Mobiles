@@ -180,7 +180,7 @@ export default function AboutPage() {
             {[
               {
                 title: 'Phone Sales',
-                items: ['Second hand mobiles for all brands', 'Wholesale and retail pricing', 'EMI plans available', 'Exchange & upgrade offers', 'Expert guidance on selection'],
+                items: ['Second hand mobiles for all brands', 'Wholesale and retail pricing', 'EMI plans available on Credit Card', 'Exchange & upgrade offers', 'Expert guidance on selection'],
               },
               {
                 title: 'Easy EMI Plans',

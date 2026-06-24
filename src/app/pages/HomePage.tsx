@@ -99,6 +99,20 @@ export default function HomePage() {
       color: 'text-green-600',
       bg: 'bg-green-50',
     },
+    {
+      icon: Shield,
+      title: 'Quality Checked',
+      desc: 'Every phone goes through a rigorous 40-point quality check.',
+      color: 'text-indigo-600',
+      bg: 'bg-indigo-50',
+    },
+    {
+      icon: CheckCircle,
+      title: 'Customer Support',
+      desc: 'Expert guidance on selection and reliable post-purchase assistance.',
+      color: 'text-orange-600',
+      bg: 'bg-orange-50',
+    },
   ];
 
   const features = [
