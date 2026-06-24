@@ -6,7 +6,7 @@ import { Badge } from '../components/ui/badge';
 
 export default function AboutPage() {
   const milestones = [
-    { year: '2015', event: 'Founded Raghu Mobile in Erode Fort' },
+    { year: '2015', event: 'Founded Raghu Mobile Wholesale in Erode Fort' },
     { year: '2017', event: 'Became authorised reseller for Samsung & Vivo' },
     { year: '2019', event: 'Expanded to full accessories range' },
     { year: '2021', event: 'Added iPhone & Apple accessories lineup' },
@@ -57,7 +57,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <Badge className="mb-4 bg-white/20 text-white border-white/30 hover:bg-white/30">Est. 2015</Badge>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Raghu Mobile</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Raghu Mobile Wholesale</h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
             Erode's most trusted mobile phone shop — bringing you genuine products, honest prices,
             and expert guidance since 2015.
@@ -100,7 +100,7 @@ export default function AboutPage() {
               <Badge className="mb-3 bg-blue-100 text-blue-700 hover:bg-blue-100">Our Story</Badge>
               <h2 className="text-3xl font-bold mb-6">From a Small Shop to Erode's #1 Mobile Destination</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Raghu Mobile was founded in 2015 by Raghunathan K. in the heart of Erode Fort with a simple
+                Raghu Mobile Wholesale was founded in 2015 by Raghunathan K. in the heart of Erode Fort with a simple
                 mission — to make quality smartphones accessible to everyone in the region with honest pricing
                 and no hidden costs.
               </p>
@@ -214,7 +214,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <Badge className="mb-3 bg-blue-100 text-blue-700 hover:bg-blue-100">Our Team</Badge>
-            <h2 className="text-3xl font-bold">Meet the People Behind Raghu Mobile</h2>
+            <h2 className="text-3xl font-bold">Meet the People Behind Raghu Mobile Wholesale</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             {team.map((member, i) => (
@@ -250,7 +250,7 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center gap-2 text-blue-100">
               <Phone className="w-5 h-5" />
-              <span>+91 9698237458</span>
+              <span>+91 9698237458 / +91 8608237458</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-4 justify-center">

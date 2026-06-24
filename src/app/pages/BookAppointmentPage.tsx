@@ -137,9 +137,9 @@ export default function BookAppointmentPage() {
               {/* Contact Info */}
               <div className="bg-blue-600 text-white rounded-xl p-5 mt-4">
                 <h3 className="font-bold mb-3">Prefer to call directly?</h3>
-                <a href="tel:+919698237458/+919361099610" className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors">
+                <a href="tel:+919698237458" className="flex items-center gap-2 text-blue-100 hover:text-white transition-colors">
                   <Phone className="w-5 h-5" />
-                  <span className="font-semibold text-lg">+91 9698237458 / +91 9361099610</span>
+                  <span className="font-semibold text-lg">+91 9698237458 / +91 8608237458</span>
                 </a>
                 <p className="text-blue-200 text-sm mt-2">Mon – Sun, 9:00 AM – 8:00 PM</p>
               </div>

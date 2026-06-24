@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Raghu Mobile</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Raghu Mobile Wholesale</h3>
             <p className="text-sm mb-4 leading-relaxed">
               Your trusted mobile shop in Erode. We offer the latest smartphones, accessories,
               and repair services with genuine products and honest prices since 2010.
@@ -59,7 +59,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5 flex-shrink-0 text-blue-400" />
-                <a href="tel:+919698237458" className="hover:text-white transition-colors">+91 9698237458 / +91 9361099610</a>
+                <a href="tel:+919698237458" className="hover:text-white transition-colors">+91 9698237458 / +91 8608237458</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0 text-blue-400" />
@@ -68,7 +68,7 @@ export function Footer() {
             </ul>
             <div className="mt-4 text-sm">
               <p className="text-gray-400">Store Hours:</p>
-              <p>Mon – Sat: <span className="text-white">9:00 AM – 8:30 PM</span></p>
+              <p>Mon – Sun: <span className="text-white">10:00 AM – 9:00 PM</span></p>
               <p>Sunday: <span className="text-white">10:00 AM – 6:00 PM</span></p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export function Footer() {
         <Separator className="my-8 bg-gray-700" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© 2026 Raghu Mobile. All rights reserved.</p>
+          <p>© 2026 Raghu Mobile Wholesale. All rights reserved.</p>
           <p>Designed by Sharan Byju</p>
         </div>
       </div>

@@ -38,10 +38,10 @@ export function Header() {
             </div>
             <div className="hidden md:flex items-center gap-1">
               <Phone className="w-3 h-3" />
-              <a href="tel:+919698237458" className="hover:underline">+91 9698237458 / +91 9361099610</a>
+              <a href="tel:+919698237458" className="hover:underline">+91 9698237458 / +91 8608237458</a>
             </div>
           </div>
-          <div className="text-sm">Welcome to Raghu Mobile Shop</div>
+          <div className="text-sm">Welcome to Raghu Mobile Wholesale Shop</div>
         </div>
       </div>
 
@@ -51,10 +51,10 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="bg-gradient-to-br from-white-600 to-white-800 text-white p-2 rounded-[15px]">
-              <img src={logoImage} alt="Raghu Mobile Logo" className="w-8 h-8 object-contain" />
+              <img src={logoImage} alt="Raghu Mobile Wholesale Logo" className="w-8 h-8 object-contain" />
             </div>
             <div>
-              <h1 className="font-bold text-xl text-gray-900">Raghu Mobile</h1>
+              <h1 className="font-bold text-xl text-gray-900">Raghu Mobile Wholesale</h1>
               <p className="text-xs text-gray-600">Erode's Trusted Store</p>
             </div>
           </Link>
@@ -90,11 +90,10 @@ export function Header() {
                     <Link
                       key={link.to}
                       to={link.to}
-                      className={`block py-2 px-3 rounded-lg font-medium transition-colors ${
-                        isActive(link.to)
-                          ? 'bg-blue-50 text-blue-600'
-                          : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
-                      }`}
+                      className={`block py-2 px-3 rounded-lg font-medium transition-colors ${isActive(link.to)
+                        ? 'bg-blue-50 text-blue-600'
+                        : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
+                        }`}
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {link.label}
@@ -116,11 +115,10 @@ export function Header() {
                 <Link
                   key={link.to}
                   to={link.to}
-                  className={`font-medium transition-colors pb-0.5 border-b-2 ${
-                    isActive(link.to)
-                      ? 'text-blue-600 border-blue-600'
-                      : 'text-gray-700 border-transparent hover:text-blue-600 hover:border-blue-300'
-                  }`}
+                  className={`font-medium transition-colors pb-0.5 border-b-2 ${isActive(link.to)
+                    ? 'text-blue-600 border-blue-600'
+                    : 'text-gray-700 border-transparent hover:text-blue-600 hover:border-blue-300'
+                    }`}
                 >
                   {link.label}
                 </Link>

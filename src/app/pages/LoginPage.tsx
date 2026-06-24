@@ -59,7 +59,7 @@ export default function LoginPage() {
             </div>
           </div>
           <CardTitle className="text-2xl">Staff Portal</CardTitle>
-          <CardDescription>Login to access the Raghu Mobile management portal</CardDescription>
+          <CardDescription>Login to access the Raghu Mobile Wholesale management portal</CardDescription>
         </CardHeader>
         <CardContent>
           <Tabs defaultValue="staff" onValueChange={value => { setSelectedRole(value as UserRole); quickLogin(value as UserRole); }}>

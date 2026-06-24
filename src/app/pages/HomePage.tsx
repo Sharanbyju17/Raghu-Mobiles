@@ -43,7 +43,7 @@ export default function HomePage() {
   const banners = [
     {
       id: 1,
-      title: 'Welcome to Raghu Mobile',
+      title: 'Welcome to Raghu Mobile Wholesale',
       description:
         "Erode's most trusted mobile shop. Get the latest smartphones at the best prices with unmatched service.",
       badge: "Erode's #1 Mobile Shop",
@@ -259,11 +259,11 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                  <a href="tel:+919698237458" className="text-gray-300 hover:text-white transition-colors">+91 9698237458</a>
+                  <a href="tel:+919698237458" className="text-gray-300 hover:text-white transition-colors">+91 9698237458 / +91 8608237458</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
-                  <span className="text-gray-300">Open 7 days — Mon–Sat 9AM–8:30PM, Sun 10AM–6PM</span>
+                  <span className="text-gray-300">Open 7 days — Mon–Sat 10AM–9:00PM, Sun 10AM–6PM</span>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">

@@ -144,7 +144,7 @@ export default function ProductDetailPage() {
               <Button size="lg" variant="outline" className="w-full" asChild>
                 <a href="tel:+919698237458">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call Us: +91 9698237458
+                  Call Us: +91 9698237458 / +91 8608237458
                 </a>
               </Button>
             </div>

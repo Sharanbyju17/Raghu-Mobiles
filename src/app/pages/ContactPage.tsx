@@ -73,7 +73,7 @@ export default function ContactPage() {
                       <MapPin className="w-6 h-6 text-blue-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900 mb-1">Raghu Mobile</h3>
+                      <h3 className="font-semibold text-gray-900 mb-1">Raghu Mobile Wholesale</h3>
                       <p className="text-gray-600 text-sm leading-relaxed">
                         2nd Floor, RR Complex,<br />
                         Erode Fort, Erode,<br />
@@ -89,7 +89,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                       <a href="tel:+919698237458" className="text-gray-600 text-sm hover:text-blue-600 transition-colors">
-                        +91 9698237458
+                        +91 9698237458 / +91 8608237458
                       </a>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function ContactPage() {
       {/* Map */}
       <section className="h-80 bg-gray-200 relative">
         <iframe
-          title="Raghu Mobile Store Location"
+          title="Raghu Mobile Wholesale Store Location"
           src="https://maps.google.com/maps?q=11.345545,77.7201503&hl=en&z=17&output=embed"
           width="100%"
           height="100%"
