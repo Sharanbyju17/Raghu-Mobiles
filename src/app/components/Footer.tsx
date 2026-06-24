@@ -11,8 +11,8 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Raghu Mobile Wholesale</h3>
             <p className="text-sm mb-4 leading-relaxed">
-              Your trusted mobile shop in Erode. We offer the latest smartphones, accessories,
-              and repair services with genuine products and honest prices since 2010.
+              Your trusted wholesale and retail mobile shop in Erode. We offer second hand mobiles for all brands
+              with genuine products and honest prices since 2000.
             </p>
             <div className="flex gap-4">
               <a href="#" aria-label="Facebook" className="hover:text-white transition-colors">

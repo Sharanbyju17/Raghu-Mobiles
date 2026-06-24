@@ -6,7 +6,7 @@ import { Badge } from '../components/ui/badge';
 
 export default function AboutPage() {
   const milestones = [
-    { year: '2015', event: 'Founded Raghu Mobile Wholesale in Erode Fort' },
+    { year: '2000', event: 'Founded Raghu Mobile Wholesale in Erode, Tamil Nadu.' },
     { year: '2017', event: 'Became authorised reseller for Samsung & Vivo' },
     { year: '2019', event: 'Expanded to full accessories range' },
     { year: '2021', event: 'Added iPhone & Apple accessories lineup' },
@@ -56,11 +56,11 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <Badge className="mb-4 bg-white/20 text-white border-white/30 hover:bg-white/30">Est. 2015</Badge>
+          <Badge className="mb-4 bg-white/20 text-white border-white/30 hover:bg-white/30">Est. 2000</Badge>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About Raghu Mobile Wholesale</h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
-            Erode's most trusted mobile phone shop — bringing you genuine products, honest prices,
-            and expert guidance since 2015.
+            Erode's most trusted wholesale and retail mobile phone shop — bringing you second hand mobiles for all brands, genuine products, honest prices,
+            and expert guidance since 2000.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
@@ -100,13 +100,13 @@ export default function AboutPage() {
               <Badge className="mb-3 bg-blue-100 text-blue-700 hover:bg-blue-100">Our Story</Badge>
               <h2 className="text-3xl font-bold mb-6">From a Small Shop to Erode's #1 Mobile Destination</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Raghu Mobile Wholesale was founded in 2015 by Raghunathan K. in the heart of Erode Fort with a simple
-                mission — to make quality smartphones accessible to everyone in the region with honest pricing
+                Raghu Mobile Wholesale was founded in 2000 by Raghu Dharmalingam in the heart of Erode Fort with a simple
+                mission — to make quality second hand smartphones accessible to everyone in the region with honest pricing
                 and no hidden costs.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Over the years, we have grown from a single-room shop to a fully-stocked mobile destination
-                spanning multiple floors, carrying the latest from Apple, Samsung, OnePlus, Vivo and more.
+                spanning multiple floors, carrying second hand mobiles from Apple, Samsung, OnePlus, Vivo and more.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Today, we are proud to be the go-to mobile shop for thousands of families across Erode and
@@ -180,15 +180,15 @@ export default function AboutPage() {
             {[
               {
                 title: 'Phone Sales',
-                items: ['Latest smartphones from top brands', 'EMI plans available', 'Exchange & upgrade offers', 'Expert guidance on selection'],
+                items: ['Second hand mobiles for all brands', 'Wholesale and retail pricing', 'EMI plans available', 'Exchange & upgrade offers', 'Expert guidance on selection'],
               },
               {
-                title: 'Accessories',
-                items: ['Original chargers & cables', 'Cases, covers & screen guards', 'Earphones & headphones', 'Power banks & adapters'],
+                title: 'Easy EMI Plans',
+                items: ['0% interest on select models', 'Minimal documentation', 'Instant approval process', 'Flexible repayment options'],
               },
               {
-                title: 'Service & Repair',
-                items: ['Screen replacement', 'Battery replacement', 'Software issues & flashing', 'Water damage repair'],
+                title: 'Customer Support',
+                items: ['Expert guidance on selection', 'Post-purchase assistance', 'Transparent pricing', 'Exchange & upgrade programs'],
               },
             ].map((service, i) => (
               <Card key={i} className="hover:shadow-lg transition-shadow">

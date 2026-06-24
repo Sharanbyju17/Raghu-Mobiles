@@ -45,7 +45,7 @@ export default function HomePage() {
       id: 1,
       title: 'Welcome to Raghu Mobile Wholesale',
       description:
-        "Erode's most trusted mobile shop. Get the latest smartphones at the best prices with unmatched service.",
+        "Erode's trusted wholesale and retail destination for second-hand mobiles across all brands. Get the best prices with reliable service.",
       badge: "Erode's #1 Mobile Shop",
       icon: TrendingUp,
       image: logoImage,
@@ -57,22 +57,22 @@ export default function HomePage() {
     },
     {
       id: 2,
-      title: 'Up to 40% off on Accessories',
+      title: 'Exclusive Deals on Top Brands',
       description:
-        'Premium chargers, earphones, cases and more — all genuine, all affordable.',
+        'Discover amazing discounts on second-hand iPhones, Samsungs, and more. Upgrade your phone today.',
       badge: 'Special Offer',
       icon: Star,
       image:
-        'https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       bgColor: 'bg-gradient-to-r from-purple-600 to-indigo-800',
-      primaryText: 'View Accessories',
-      primaryLink: '/products?category=accessories',
+      primaryText: 'View Deals',
+      primaryLink: '/products',
     },
     {
       id: 3,
-      title: 'Premium Smart Phones',
+      title: 'Second Hand Mobiles For All Brands',
       description:
-        'Experience luxury and cutting-edge technology. iPhone, Samsung, OnePlus and more.',
+        'We offer wholesale and retail options for high-quality second-hand smartphones from Apple, Samsung, OnePlus, and more.',
       badge: 'New Arrivals',
       icon: Smartphone,
       image:
@@ -87,24 +87,11 @@ export default function HomePage() {
     {
       icon: Smartphone,
       title: 'Phone Sales',
-      desc: 'Latest smartphones from all top brands at best prices. Exchange & upgrade welcome.',
+      desc: 'Second hand mobiles from all brands at wholesale and retail prices. Exchange & upgrade welcome.',
       color: 'text-blue-600',
       bg: 'bg-blue-50',
     },
-    {
-      icon: Wrench,
-      title: 'Repair & Service',
-      desc: 'Screen replacement, battery service, software fixes by certified technicians.',
-      color: 'text-red-600',
-      bg: 'bg-red-50',
-    },
-    {
-      icon: Headphones,
-      title: 'Accessories',
-      desc: 'Genuine chargers, earphones, cases, screen guards and more for every phone.',
-      color: 'text-purple-600',
-      bg: 'bg-purple-50',
-    },
+
     {
       icon: CreditCard,
       title: 'Easy EMI Plans',
